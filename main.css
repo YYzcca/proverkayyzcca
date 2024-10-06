@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: red;
+    padding: 0;
+    margin: 0;
+}
+.z{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    font-size: 850px;
+    animation: rot 2s linear infinite;
+}
+
+
+@keyframes rot{
+    0%{
+        rotate: 0;
+    }
+    50%{
+        rotate: 180deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
